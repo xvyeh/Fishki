@@ -11,32 +11,12 @@ A minimalistic German-Polish flashcard quiz app built with Next.js and TypeScrip
 - Smooth, minimalistic design with German flag background
 - Responsive layout
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/xvyeh/fishki-de.git
-   cd fishki-de
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ## Technologies Used
 
 - Next.js 16
 - React 19
 - TypeScript
-- Plain CSS (no frameworks)
+- CSS
 
 ## Project Structure
 
@@ -45,6 +25,3 @@ A minimalistic German-Polish flashcard quiz app built with Next.js and TypeScrip
 - `app/globals.css` - Global styles
 - Categories data embedded in the component
 
-## Contributing
-
-Feel free to open issues or submit pull requests for improvements!
