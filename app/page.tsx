@@ -125,7 +125,7 @@ export default function Page() {
 
   const getOptions = (correctPolish: string, allCards: any[]) => {
     const incorrect = allCards.filter(card => card.polish !== correctPolish).map(card => card.polish);
-    const options = [correctPolish, ...incorrect.slice(0, 3)].sort(() => Math.random() - 0.5);
+    const options = [correctPolish, ...incorrect.slice(0, 3)].sort(() => Math.random() - 0.10);
     return options;
   };
 
