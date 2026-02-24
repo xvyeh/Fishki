@@ -113,7 +113,7 @@ export default function Page() {
   const handleCategorySelect = (category: string) => {
     const categoryCards = categories[category as keyof typeof categories];
     const shuffled = [...categoryCards].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, 5);
+    const selected = shuffled.slice(0, 10);
     setQuizCards(selected);
     setSelectedCategory(category);
     setCurrentIndex(0);
@@ -125,7 +125,7 @@ export default function Page() {
 
   const getOptions = (correctPolish: string, allCards: any[]) => {
     const incorrect = allCards.filter(card => card.polish !== correctPolish).map(card => card.polish);
-    const options = [correctPolish, ...incorrect.slice(0, 3)].sort(() => Math.random() - 0.5);
+    const options = [correctPolish, ...incorrect.slice(0, 3)].sort(() => Math.random() - 0.10);
     return options;
   };
 
@@ -133,7 +133,7 @@ export default function Page() {
     setSelectedAnswer(answer);
     setShowResult(true);
     if (answer === quizCards[currentIndex].polish) {
-      setScore(prev => Math.min(prev + 1, 5));
+      setScore(prev => Math.min(prev + 1, 10));
     }
   };
 
@@ -170,7 +170,7 @@ export default function Page() {
     return (
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
         <h2 className="text-3xl font-bold mb-4 text-gray-800">Quiz zakończony!</h2>
-        <p className="text-xl mb-6">Twój wynik: {score} / 5</p>
+        <p className="text-xl mb-6">Twój wynik: {score} / 10</p>
         <button onClick={() => setSelectedCategory(null)} className="bg-black text-white px-6 py-2 rounded-xl">
           Powrót do kategorii
         </button>
@@ -184,7 +184,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
       <h2 className="text-2xl font-bold mb-2 text-gray-800">{selectedCategory}</h2>
-      <p className="text-sm mb-4">Pytanie {currentIndex + 1} / 5</p>
+      <p className="text-sm mb-4">Pytanie {currentIndex + 1} / 10</p>
       <div className="bg-white w-full max-w-xl h-40 rounded-2xl shadow-2xl flex items-center justify-center text-3xl font-bold mb-6">
         {currentCard.german}
       </div>
