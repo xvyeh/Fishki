@@ -9,6 +9,11 @@ const categories = {
     { german: "Bitte", polish: "Proszę" },
     { german: "Ja", polish: "Tak" },
     { german: "Nein", polish: "Nie" },
+    { german: "Entschuldigung", polish: "Przepraszam" },
+    { german: "Tschüss", polish: "Pa" },
+    { german: "Wie geht's?", polish: "Jak się masz?" },
+    { german: "Guten Morgen", polish: "Dzień dobry" },
+    { german: "Guten Abend", polish: "Dobry wieczór" }
   ],
   "Czasowniki": [
     { german: "sein", polish: "być" },
@@ -16,6 +21,11 @@ const categories = {
     { german: "gehen", polish: "iść" },
     { german: "kommen", polish: "przyjść" },
     { german: "essen", polish: "jeść" },
+    { german: "trinken", polish: "pić" },
+    { german: "sehen", polish: "widzieć" },
+    { german: "sprechen", polish: "mówić" },
+    { german: "lesen", polish: "czytać" },
+    { german: "schlafen", polish: "spać" }
   ],
   "Liczby": [
     { german: "eins", polish: "jeden" },
@@ -23,46 +33,72 @@ const categories = {
     { german: "drei", polish: "trzy" },
     { german: "vier", polish: "cztery" },
     { german: "fünf", polish: "pięć" },
+    { german: "sechs", polish: "sześć" },
+    { german: "sieben", polish: "siedem" },
+    { german: "acht", polish: "osiem" },
+    { german: "neun", polish: "dziewięć" },
+    { german: "zehn", polish: "dziesięć" }
   ],
   "Kolory": [
     { german: "rot", polish: "czerwony" },
     { german: "blau", polish: "niebieski" },
     { german: "grün", polish: "zielony" },
-    { german: "gelb", polish: "żółty" },
     { german: "schwarz", polish: "czarny" },
+    { german: "weiß", polish: "biały" },
+    { german: "gelb", polish: "żółty" },
+    { german: "braun", polish: "brązowy" },
+    { german: "grau", polish: "szary" },
+    { german: "rosa", polish: "różowy" },
+    { german: "lila", polish: "fioletowy" }
   ],
-
   "Jedzenie": [
     { german: "Brot", polish: "chleb" },
     { german: "Wasser", polish: "woda" },
     { german: "Milch", polish: "mleko" },
     { german: "Apfel", polish: "jabłko" },
     { german: "Käse", polish: "ser" },
+    { german: "Fleisch", polish: "mięso" },
+    { german: "Fisch", polish: "ryba" },
+    { german: "Ei", polish: "jajko" },
+    { german: "Butter", polish: "masło" },
+    { german: "Reis", polish: "ryż" }
   ],
-
   "Rodzina": [
     { german: "Mutter", polish: "matka" },
     { german: "Vater", polish: "ojciec" },
     { german: "Bruder", polish: "brat" },
     { german: "Schwester", polish: "siostra" },
     { german: "Kind", polish: "dziecko" },
+    { german: "Oma", polish: "babcia" },
+    { german: "Opa", polish: "dziadek" },
+    { german: "Tante", polish: "ciocia" },
+    { german: "Onkel", polish: "wujek" },
+    { german: "Cousin", polish: "kuzyn" }
   ],
-
   "Szkoła": [
     { german: "Schule", polish: "szkoła" },
     { german: "Lehrer", polish: "nauczyciel" },
     { german: "Schüler", polish: "uczeń" },
     { german: "Buch", polish: "książka" },
     { german: "Stift", polish: "długopis" },
+    { german: "Heft", polish: "zeszyt" },
+    { german: "Klasse", polish: "klasa" },
+    { german: "Tafel", polish: "tablica" },
+    { german: "Pause", polish: "przerwa" },
+    { german: "Prüfung", polish: "egzamin" }
   ],
-
   "Podróże": [
     { german: "Auto", polish: "samochód" },
     { german: "Zug", polish: "pociąg" },
     { german: "Flughafen", polish: "lotnisko" },
     { german: "Hotel", polish: "hotel" },
     { german: "Ticket", polish: "bilet" },
-  ],
+    { german: "Reise", polish: "podróż" },
+    { german: "Pass", polish: "paszport" },
+    { german: "Stadt", polish: "miasto" },
+    { german: "Fahrrad", polish: "rower" },
+    { german: "Boot", polish: "łódź" }
+  ]
 };
 
 export default function Page() {
