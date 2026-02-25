@@ -62,6 +62,42 @@ const categories = {
     { german: "acht", polish: "osiem" },
     { german: "neun", polish: "dziewięć" },
     { german: "zehn", polish: "dziesięć" }
+  ],
+  Rodzina: [
+    { german: "Mutter", polish: "matka" },
+    { german: "Vater", polish: "ojciec" },
+    { german: "Bruder", polish: "brat" },
+    { german: "Schwester", polish: "siostra" },
+    { german: "Kind", polish: "dziecko" },
+    { german: "Oma", polish: "babcia" },
+    { german: "Opa", polish: "dziadek" },
+    { german: "Tante", polish: "ciocia" },
+    { german: "Onkel", polish: "wujek" },
+    { german: "Cousin", polish: "kuzyn" }
+  ],
+  Szkoła: [
+    { german: "Schule", polish: "szkoła" },
+    { german: "Lehrer", polish: "nauczyciel" },
+    { german: "Schüler", polish: "uczeń" },
+    { german: "Buch", polish: "książka" },
+    { german: "Stift", polish: "długopis" },
+    { german: "Heft", polish: "zeszyt" },
+    { german: "Klasse", polish: "klasa" },
+    { german: "Tafel", polish: "tablica" },
+    { german: "Pause", polish: "przerwa" },
+    { german: "Prüfung", polish: "egzamin" }
+  ],
+  Podróże: [
+    { german: "Auto", polish: "samochód" },
+    { german: "Zug", polish: "pociąg" },
+    { german: "Flughafen", polish: "lotnisko" },
+    { german: "Hotel", polish: "hotel" },
+    { german: "Ticket", polish: "bilet" },
+    { german: "Reise", polish: "podróż" },
+    { german: "Pass", polish: "paszport" },
+    { german: "Stadt", polish: "miasto" },
+    { german: "Fahrrad", polish: "rower" },
+    { german: "Boot", polish: "łódź" }
   ]
 };
 
